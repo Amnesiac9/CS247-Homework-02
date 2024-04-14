@@ -3,10 +3,55 @@ body {
     margin: 0;
     padding: 0;
     background-color: #E5E5E5;
+    font-family: Mulish;
 }
 
 .card-large {
     max-width: 413px;
     max-height: 466px;
 
+}
+
+
+.card-small {
+    border: solid red 1px;
+    display: flex;
+    max-width: 472px;
+    padding: 10px
+}
+
+.grey-square-medium {
+    display: inline-block;
+    background-color: #C4C4C4;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+
+.text-area {
+    flex: 1;
+
+}
+
+.text-title-small {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Makes the square disappear unless we set a max width */
+    white-space: nowrap;
+    max-width: 400px;
+    text-align: top;
+
+    /* Enable this if the title needs to be moved higher as show in the figma example */
+    /* margin-top: -4px;  */
+
+    /* line-height: 14px; */
+    /* max-height: 20px; */
+}
+
+.text-small {
+    font-weight: 400;
+    font-size: 0.95em
 }
