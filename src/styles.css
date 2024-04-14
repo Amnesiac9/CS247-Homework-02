@@ -1,5 +1,12 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     background-color: #E5E5E5;
+}
+
+.card-large {
+    max-width: 413px;
+    max-height: 466px;
+
 }
