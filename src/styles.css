@@ -43,7 +43,6 @@ body {
 }
 
 .card-large-body {
-    border: solid red 1px;
     flex: 1;
     padding: 15px;
     font-weight: 500;
@@ -52,7 +51,6 @@ body {
 
 .card-large-footer {
     display: flex;
-    border: solid red 1px;
     flex-direction: column;
     max-height: 100px;
 }
@@ -82,13 +80,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px;
+    padding: 5px 14px;
 }
 
 .bottom-left-date {
     color: #808080;
     font-weight: 400;
-    font-size: .75em
+    font-size: .75em;
+    padding-top: 5px;
 }
 
 .bottom-right-icons {
